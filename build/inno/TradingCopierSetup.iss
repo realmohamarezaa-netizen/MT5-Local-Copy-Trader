@@ -12,7 +12,6 @@ AppId={{7E4A2C91-8B3D-4F5A-9C2E-A1D3B4C5F6E8}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-DefaultAppName={#MyAppName}
 ; Per-user install: no admin rights required (spec: no admin needed)
 PrivilegesRequired=lowest
 DefaultDirName={localappdata}\Programs\TradingCopier
