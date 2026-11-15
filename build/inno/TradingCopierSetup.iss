@@ -3,7 +3,7 @@
 ; Compile: ISCC build/inno/TradingCopierSetup.iss  (after PyInstaller build)
 
 #define MyAppName "Trading Copier"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "Trading Copier"
 #define MyAppExeName "TradingCopier.exe"
 
@@ -21,7 +21,6 @@ UninstallDisplayName={#MyAppName} {#MyAppVersion}
 UninstallDisplayIcon={app}\{#MyAppExeName}
 OutputDir=Output
 OutputBaseFilename=TradingCopierSetup_x64
-SetupIconFile=
 Compression=lzma2/max
 SolidCompression=yes
 WizardStyle=modern
@@ -32,7 +31,6 @@ ChangesAssociations=no
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
-Name: "farsi"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; \
