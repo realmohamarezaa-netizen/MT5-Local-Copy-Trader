@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/pyi/
+dist/
+*.spec.bak
+
+# IDE
+.idea/
+.vscode/
+
+# Local app data (never commit user data)
+*.db
+*.db-wal
+*.db-shm
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Inno Setup output
+Output/

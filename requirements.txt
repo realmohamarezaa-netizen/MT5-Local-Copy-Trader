@@ -1,0 +1,4 @@
+# Trading Copier - runtime dependencies (Windows x64, Python 3.11)
+# MetaTrader5 official package only ships Windows wheels.
+MetaTrader5==5.0.45
+PySide6==6.7.1
