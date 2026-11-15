@@ -25,7 +25,15 @@ services. All processing, storage and UI run on your own machine.
 | Secrets | Windows DPAPI (never plaintext) |
 | Packaging | PyInstaller (onedir) + Inno Setup installer + GitHub Actions |
 
-![flow](docs/architecture.png)
+Pipeline overview (full detail in docs/ARCHITECTURE.md):
+
+```
+Qt UI thread ── StateStore @200ms ──> render (never blocks)
+Engine thread ──> MasterAnalyzer ──> CopyEngine ──> dispatch ──> SQLite (WAL)
+     ▲ Named Pipes (JSON) ▲
+Worker proc (terminal A)  Worker proc (terminal B)  ...  one process per MT5,
+mt5.initialize(path=...)  watchdog respawns crashed workers
+```
 
 ## Repository layout
 
