@@ -27,9 +27,10 @@
 
 فایل نصب به‌صورت خودکار توسط GitHub Actions ساخته می‌شود:
 
-1. در همین مخزن به بخش **Releases** بروید.
-2. فایل **`TradingCopierSetup_x64.zip`** را دانلود کنید (داخل آن فایل نصب
-   کلاسیک `TradingCopierSetup_x64.exe` قرار دارد).
+1. فایل **`TradingCopierSetup_x64.zip`** را مستقیم دانلود کنید:
+   https://github.com/realmohamarezaa-netizen/MT5-Local-Copy-Trader/releases/download/v1.0.3/TradingCopierSetup_x64.zip
+   (یا به بخش Releases همین مخزن بروید) — داخل ZIP، فایل نصب کلاسیک
+   `TradingCopierSetup_x64.exe` قرار دارد.
 3. فایل ZIP را باز کنید و Setup را اجرا کنید. نصب در سطح کاربر (بدون نیاز
    به Administrator)، شورتکات دسکتاپ و Start Menu و Uninstaller کامل دارد.
 

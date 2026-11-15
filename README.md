@@ -59,10 +59,10 @@ docs/           installation / MT5 setup / troubleshooting (Persian) + architect
 
 The installer is built automatically by GitHub Actions on every `v*` tag:
 
-1. Go to **Releases** in this repository
-2. Download **`TradingCopierSetup_x64.zip`** (contains the classic
-   `TradingCopierSetup_x64.exe` installer)
-3. Unzip, run the installer, done. Per-user install (no admin required),
+1. Download **`TradingCopierSetup_x64.zip`** directly:
+   https://github.com/realmohamarezaa-netizen/MT5-Local-Copy-Trader/releases/download/v1.0.3/TradingCopierSetup_x64.zip
+   (or browse all Releases in this repository)
+2. Unzip, run the classic `TradingCopierSetup_x64.exe` installer, done. Per-user install (no admin required),
    desktop + start-menu shortcuts, full uninstaller included.
 
 To build locally on Windows: install Python 3.11 x64 and
